@@ -34,7 +34,7 @@ if __name__ == "__main__":
     match_percentage = (len(matched) / len(job_skills)) * 100 if job_skills else 0
 
     # Step 4: Show results
-    print("🔍 Job Skills:", job_skills)
-    print("✅ Matched Skills:", list(matched))
-    print("❌ Missing Skills:", list(missing))
-    print(f"🎯 Match Percentage: {match_percentage:.2f}%")
+    print(" Job Skills:", job_skills)
+    print(" Matched Skills:", list(matched))
+    print(" Missing Skills:", list(missing))
+    print(f" Match Percentage: {match_percentage:.2f}%")
